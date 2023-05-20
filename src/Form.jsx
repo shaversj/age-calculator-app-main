@@ -31,7 +31,7 @@ function Form({onSubmitHandler}) {
                 <hr className="w-[300px] lg:w-[650px] lg:max-w-[650px] h-px my-8 border-[1.25px] dark:bg-smokey-grey"/>
                 <button
                     className={"absolute lg:relative px-3 font-medium -translate-x-1/2 left-1/2 lg:left-[5%] dark:text-white  bg-purple min-w-[65px] min-h-[65px] lg:min-w-[96px] lg:min-h-[96px] rounded-full grid place-items-center"}
-                    type={"submit"}>
+                    type={"submit"} title={"Form Submit Button"}>
                     <svg className={"w-[25px] h-[25px] lg:w-[47px] lg:h-[47px] stroke-[4] lg:stroke-2"}
                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 44">
                         <g fill="none" stroke="#FFF">

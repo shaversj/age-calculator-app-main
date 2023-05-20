@@ -1,6 +1,7 @@
 import {useState} from 'react'
-import * as djs from 'dayjs';
-import * as duration from 'dayjs/plugin/duration'
+//import * as dayjs from 'dayjs';
+import dayjs from 'dayjs/esm/index.js'
+import duration from 'dayjs/plugin/duration'
 import './App.css'
 
 import Form from "./Form.jsx";
@@ -24,11 +25,11 @@ function App() {
     }
 
     function calculateAge(day, month, year) {
-        const date2 = djs(new Date(year + '-' + month + '-' + day))
-        const date1 = djs(new Date())
-        djs.extend(duration)
+        const date2 = dayjs(new Date(year + '-' + month + '-' + day))
+        const date1 = dayjs(new Date())
+        dayjs.extend(duration)
 
-        return djs.duration(date1.diff(date2))
+        return dayjs.duration(date1.diff(date2))
     }
 
     return (
