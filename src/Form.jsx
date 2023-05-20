@@ -7,7 +7,7 @@ function Form({onSubmitHandler}) {
                     <label htmlFor="day"><span
                         className={"uppercase font-bold text-[13px] lg:text-[15px] text-gray-500 tracking-[.2em]"}>Day</span></label>
                     <input
-                        className={"placeholder-gray-400 invalid:border-red-500  block border-smokey grey font-bold text-xl lg:text-4xl pl-4 focus:outline focus:outline-1 focus:outline-purple rounded-lg border w-[88px] h-[54px] lg:w-[160px] lg:h-[72px] [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"}
+                        className={"peer placeholder-gray-400 invalid:border-red-500  block border-smokey-grey font-bold text-xl lg:text-4xl pl-4 focus:outline focus:outline-1 focus:outline-purple rounded-lg border w-[88px] h-[54px] lg:w-[160px] lg:h-[72px] [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"}
                         id="day" type="number" min={"1"} max={"31"} placeholder={"DD"}/>
                     <p className={"pt-1 invisible peer-invalid:visible font-poppins text-red-500 text-[8px] lg:text-[12px]"}>Must
                         be a valid day</p>
@@ -16,7 +16,7 @@ function Form({onSubmitHandler}) {
                     <label htmlFor="month"><span
                         className={"uppercase font-bold text-[13px] lg:text-[15px] text-gray-500 tracking-[.2em]"}>Month</span></label>
                     <input
-                        className={"peer placeholder-gray-400 focus:text-black block border-smokey grey font-bold text-xl lg:text-4xl pl-4 focus:outline focus:outline-1 focus:outline-purple rounded-lg border w-[88px] h-[54px] lg:w-[160px] lg:h-[72px] [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"}
+                        className={"peer placeholder-gray-400 block border-smokey-grey font-bold text-xl lg:text-4xl pl-4 focus:outline focus:outline-1 focus:outline-purple rounded-lg border w-[88px] h-[54px] lg:w-[160px] lg:h-[72px] [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"}
                         id="month" type="number" placeholder={"MM"} min={"1"} max={"12"}/>
                     <p className={"pt-1 invisible peer-invalid:visible font-poppins text-red-500 text-[8px] lg:text-[12px]"}>Must
                         be a valid month</p>
@@ -25,7 +25,7 @@ function Form({onSubmitHandler}) {
                     <label htmlFor="year"><span
                         className={"uppercase font-bold text-[13px] lg:text-[15px] text-gray-500 tracking-[.2em]"}>Year</span></label>
                     <input
-                        className={"peer placeholder-gray-400 focus:text-black block border-smokey grey font-bold text-xl lg:text-4xl pl-4 focus:outline focus:outline-1 focus:outline-purple rounded-lg border w-[88px] h-[54px] lg:w-[160px] lg:h-[72px] [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"}
+                        className={"peer placeholder-gray-400 block border-smokey-grey font-bold text-xl lg:text-4xl pl-4 focus:outline focus:outline-1 focus:outline-purple rounded-lg border w-[88px] h-[54px] lg:w-[160px] lg:h-[72px] [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"}
                         id="year" type="number" placeholder={"YYYY"} min={"1"} max={"2023"}/>
                     <p className={"pt-1 invisible peer-invalid:visible font-poppins text-red-500 text-[8px] lg:text-[12px]"}>Must
                         be in the past</p>
